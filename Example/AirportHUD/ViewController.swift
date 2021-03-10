@@ -8,11 +8,14 @@
 
 import UIKit
 import AirportHUD
+
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         // Do any additional setup after loading the view, typically from a nib.
+        let loader = AirportDataLoader(text: "Loading")
     }
 
     override func didReceiveMemoryWarning() {
