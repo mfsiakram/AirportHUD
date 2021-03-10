@@ -7,15 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		25BFF7276F0FCEF47BE80838030D37F4 /* AirportHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A855ED96A45E9B3883FC6A2EC59A7C9 /* AirportHUD-dummy.m */; };
-		27DAE8FD1469CE77D4CD7C80E11B4019 /* AirportHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 69AC91FC84541178D568E2CFB79D37BC /* AirportHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27DAE8FD1469CE77D4CD7C80E11B4019 /* AirportHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C0F4A4B118799CC67208336E17B9940F /* AirportHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		338741C3304E4421DECE4DB10E54482A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		4452BECF956E781B00B56129919ECA41 /* Pods-AirportHUD_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 109112B82856A17D05A5D6466F6590C3 /* Pods-AirportHUD_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5BF8C65A8ECE4BE30B79F19E289CC075 /* Pods-AirportHUD_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E9B63F5A8628855FC4FC28C42A56E0F /* Pods-AirportHUD_Tests-dummy.m */; };
 		7159D2DA50FD5C7C6BEBF79FE91C5A53 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		876E94D825F8A4D200640385 /* AirportDataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876E94D725F8A4D200640385 /* AirportDataLoader.swift */; };
+		8151382894B9436A8E5C5B25D5C466E2 /* AirportHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1891746C8DBD4F59634BB0EAFC450DA2 /* AirportHUD-dummy.m */; };
 		8FD65A513A66DA9D67BEC4E40EF7CF01 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		90FA5F3AE3BC019690DB15CB50E90C13 /* Pods-AirportHUD_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CB481E8BE17EFE71F9A7C75BF64C45C3 /* Pods-AirportHUD_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E4287F740506C393A8E5BFB99715C262 /* AirportDataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C781AD9892304DA3C4D754B5CCEF1DC /* AirportDataLoader.swift */; };
 		E57060FC1D914B6554EEB2112C51A892 /* Pods-AirportHUD_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 114034D4081577548208BA8FB2D4D202 /* Pods-AirportHUD_Example-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -37,39 +37,39 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		02812B02344D4A62FE2117FD8B26B3B8 /* Pods_AirportHUD_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AirportHUD_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		02812B02344D4A62FE2117FD8B26B3B8 /* Pods_AirportHUD_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AirportHUD_Example.framework; path = "Pods-AirportHUD_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		049E33B4AB96632D1B6041285EC6C0B6 /* Pods-AirportHUD_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AirportHUD_Example-Info.plist"; sourceTree = "<group>"; };
-		0A855ED96A45E9B3883FC6A2EC59A7C9 /* AirportHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AirportHUD-dummy.m"; sourceTree = "<group>"; };
 		109112B82856A17D05A5D6466F6590C3 /* Pods-AirportHUD_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AirportHUD_Tests-umbrella.h"; sourceTree = "<group>"; };
 		114034D4081577548208BA8FB2D4D202 /* Pods-AirportHUD_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AirportHUD_Example-dummy.m"; sourceTree = "<group>"; };
+		1891746C8DBD4F59634BB0EAFC450DA2 /* AirportHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AirportHUD-dummy.m"; sourceTree = "<group>"; };
 		1B0765CC7E244D4D3BDEA4D3933797F0 /* Pods-AirportHUD_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AirportHUD_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		1D398A3F91D6E3D539F0FCBCA78CF303 /* AirportHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AirportHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2B3A0B3DA4D89689DFF7214B675D2CA8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		1C030EA2D655573B891859F7B4DC1F2C /* AirportHUD.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = AirportHUD.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1D398A3F91D6E3D539F0FCBCA78CF303 /* AirportHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AirportHUD.framework; path = AirportHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		317513B37B0C74115873E5076DDB7867 /* Pods-AirportHUD_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AirportHUD_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		3D0004F5E2E3956B70657D6BE8EB24C8 /* Pods-AirportHUD_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AirportHUD_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		4036498EB50F67AE8BAB83D3C4A4E7DD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		44BFA169AF502D345CF4FBEB1E1A01F2 /* Pods-AirportHUD_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AirportHUD_Tests-Info.plist"; sourceTree = "<group>"; };
-		5C250A65C36451C1C4A95DD1BF4F2E34 /* AirportHUD-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AirportHUD-Info.plist"; sourceTree = "<group>"; };
-		669E06435A1B4F16892CDA35EBCE3851 /* AirportHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AirportHUD-prefix.pch"; sourceTree = "<group>"; };
-		69AC91FC84541178D568E2CFB79D37BC /* AirportHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AirportHUD-umbrella.h"; sourceTree = "<group>"; };
+		63FB9DCD7E2B83F7A62BCCE6D6158FE7 /* AirportHUD-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AirportHUD-Info.plist"; sourceTree = "<group>"; };
+		676911BFDD6105587BEFEAD8C260576A /* AirportHUD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AirportHUD.debug.xcconfig; sourceTree = "<group>"; };
 		6A2F074D600EC7DA6C11BB62D6DDBBB4 /* Pods-AirportHUD_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AirportHUD_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6B07400249B50ACD9DCC1F996E281FC0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		6C781AD9892304DA3C4D754B5CCEF1DC /* AirportDataLoader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AirportDataLoader.swift; path = AirportHUD/Classes/AirportDataLoader.swift; sourceTree = "<group>"; };
 		729D4F8301555F8C11A65FB8E2A37835 /* Pods-AirportHUD_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AirportHUD_Example-frameworks.sh"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7BA36AFC509CE8DC12EC3D6A5AA3C795 /* Pods-AirportHUD_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AirportHUD_Example.modulemap"; sourceTree = "<group>"; };
 		7E9B63F5A8628855FC4FC28C42A56E0F /* Pods-AirportHUD_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AirportHUD_Tests-dummy.m"; sourceTree = "<group>"; };
 		80767370BBF89FD4AF6D14AF4FEFB17B /* Pods-AirportHUD_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AirportHUD_Example.release.xcconfig"; sourceTree = "<group>"; };
-		876E94D725F8A4D200640385 /* AirportDataLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AirportDataLoader.swift; path = AirportHUD/Classes/AirportDataLoader.swift; sourceTree = "<group>"; };
 		8B09607F8C1F7F90D763242EEFAE450B /* Pods-AirportHUD_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AirportHUD_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		8C37A2D73D2A69DACF121D1ABB6F106B /* Pods-AirportHUD_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AirportHUD_Tests.modulemap"; sourceTree = "<group>"; };
-		8D6A8CDD6A65C879956DF66B816EF105 /* AirportHUD.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = AirportHUD.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		8EF3DB5EC1015547D6701274AF743237 /* AirportHUD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AirportHUD.debug.xcconfig; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BCFF41FA62C1682CDAA91183DC467C7A /* AirportHUD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AirportHUD.release.xcconfig; sourceTree = "<group>"; };
+		C0F4A4B118799CC67208336E17B9940F /* AirportHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AirportHUD-umbrella.h"; sourceTree = "<group>"; };
+		C4F0C1DF553EB3C321FEA2D0C5323340 /* AirportHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AirportHUD.modulemap; sourceTree = "<group>"; };
 		C5554D286F5CB83A0557689EE36857F8 /* Pods-AirportHUD_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AirportHUD_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		CB481E8BE17EFE71F9A7C75BF64C45C3 /* Pods-AirportHUD_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AirportHUD_Example-umbrella.h"; sourceTree = "<group>"; };
 		D5F99E38EE0FCE5033B9F3EA41CF0E52 /* Pods-AirportHUD_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AirportHUD_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		E703341F95F869ABB8379DEEE2067631 /* AirportHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AirportHUD.modulemap; sourceTree = "<group>"; };
-		E82B51CDC26767C135BCA22D68D4E088 /* Pods_AirportHUD_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AirportHUD_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EB245E2D5C57A685E96BB17918871641 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		F06449E8B7C3A69EECB0468A304F81F6 /* AirportHUD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AirportHUD.release.xcconfig; sourceTree = "<group>"; };
+		E0091524A70920DA835E5E4435470F95 /* AirportHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AirportHUD-prefix.pch"; sourceTree = "<group>"; };
+		E82B51CDC26767C135BCA22D68D4E088 /* Pods_AirportHUD_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AirportHUD_Tests.framework; path = "Pods-AirportHUD_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,17 +100,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2BE0CAF02643A8E8C18BF2FD8415ED34 /* AirportHUD */ = {
-			isa = PBXGroup;
-			children = (
-				876E94D725F8A4D200640385 /* AirportDataLoader.swift */,
-				FEBFE9E47A90E20E68C20C60D604FC33 /* Pod */,
-				BDA5CE223FA84704F706E1A136CEC898 /* Support Files */,
-			);
-			name = AirportHUD;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		3DEDE038690031BB092177D483659777 /* Pods-AirportHUD_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -146,27 +135,48 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		69593E89E696ABDAEE509FB250BCF0CB /* AirportHUD */ = {
+			isa = PBXGroup;
+			children = (
+				6C781AD9892304DA3C4D754B5CCEF1DC /* AirportDataLoader.swift */,
+				A93B09A5E2BABD198F5068D39D750A2B /* Pod */,
+				81D92AEF8AD161C64DCC536CD08F0D02 /* Support Files */,
+			);
+			name = AirportHUD;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		81D92AEF8AD161C64DCC536CD08F0D02 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C4F0C1DF553EB3C321FEA2D0C5323340 /* AirportHUD.modulemap */,
+				1891746C8DBD4F59634BB0EAFC450DA2 /* AirportHUD-dummy.m */,
+				63FB9DCD7E2B83F7A62BCCE6D6158FE7 /* AirportHUD-Info.plist */,
+				E0091524A70920DA835E5E4435470F95 /* AirportHUD-prefix.pch */,
+				C0F4A4B118799CC67208336E17B9940F /* AirportHUD-umbrella.h */,
+				676911BFDD6105587BEFEAD8C260576A /* AirportHUD.debug.xcconfig */,
+				BCFF41FA62C1682CDAA91183DC467C7A /* AirportHUD.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/AirportHUD";
+			sourceTree = "<group>";
+		};
 		9B4EF531D42BB60DEF48168F38108B40 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				2BE0CAF02643A8E8C18BF2FD8415ED34 /* AirportHUD */,
+				69593E89E696ABDAEE509FB250BCF0CB /* AirportHUD */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		BDA5CE223FA84704F706E1A136CEC898 /* Support Files */ = {
+		A93B09A5E2BABD198F5068D39D750A2B /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				E703341F95F869ABB8379DEEE2067631 /* AirportHUD.modulemap */,
-				0A855ED96A45E9B3883FC6A2EC59A7C9 /* AirportHUD-dummy.m */,
-				5C250A65C36451C1C4A95DD1BF4F2E34 /* AirportHUD-Info.plist */,
-				669E06435A1B4F16892CDA35EBCE3851 /* AirportHUD-prefix.pch */,
-				69AC91FC84541178D568E2CFB79D37BC /* AirportHUD-umbrella.h */,
-				8EF3DB5EC1015547D6701274AF743237 /* AirportHUD.debug.xcconfig */,
-				F06449E8B7C3A69EECB0468A304F81F6 /* AirportHUD.release.xcconfig */,
+				1C030EA2D655573B891859F7B4DC1F2C /* AirportHUD.podspec */,
+				4036498EB50F67AE8BAB83D3C4A4E7DD /* LICENSE */,
+				6B07400249B50ACD9DCC1F996E281FC0 /* README.md */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/AirportHUD";
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -211,16 +221,6 @@
 			);
 			name = "Pods-AirportHUD_Tests";
 			path = "Target Support Files/Pods-AirportHUD_Tests";
-			sourceTree = "<group>";
-		};
-		FEBFE9E47A90E20E68C20C60D604FC33 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				8D6A8CDD6A65C879956DF66B816EF105 /* AirportHUD.podspec */,
-				2B3A0B3DA4D89689DFF7214B675D2CA8 /* LICENSE */,
-				EB245E2D5C57A685E96BB17918871641 /* README.md */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -277,7 +277,7 @@
 			buildConfigurationList = 82BFD3BDFCBDFD867B46FCB810B25D6C /* Build configuration list for PBXNativeTarget "AirportHUD" */;
 			buildPhases = (
 				D4D9F4C303D258FF3346F1BFB4EF3379 /* Headers */,
-				D78F322ECAB0D38860A688DDF2705520 /* Sources */,
+				2D1569869380217770DCF16DD59B1240 /* Sources */,
 				86CD61E3F7D0FA5FDF6BF2DA95CE9680 /* Frameworks */,
 				49E19A7288C7FD6BAA8DA8372B00C01D /* Resources */,
 			);
@@ -363,12 +363,12 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		D78F322ECAB0D38860A688DDF2705520 /* Sources */ = {
+		2D1569869380217770DCF16DD59B1240 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				25BFF7276F0FCEF47BE80838030D37F4 /* AirportHUD-dummy.m in Sources */,
-				876E94D825F8A4D200640385 /* AirportDataLoader.swift in Sources */,
+				E4287F740506C393A8E5BFB99715C262 /* AirportDataLoader.swift in Sources */,
+				8151382894B9436A8E5C5B25D5C466E2 /* AirportHUD-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -406,107 +406,13 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		165296764E9486256AEB4AE5E09CDA33 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8EF3DB5EC1015547D6701274AF743237 /* AirportHUD.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/AirportHUD/AirportHUD-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AirportHUD/AirportHUD-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/AirportHUD/AirportHUD.modulemap";
-				PRODUCT_MODULE_NAME = AirportHUD;
-				PRODUCT_NAME = AirportHUD;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SUPPORTS_MACCATALYST = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		2393B45315E867D955CEA289D881E1FC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D5F99E38EE0FCE5033B9F3EA41CF0E52 /* Pods-AirportHUD_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-AirportHUD_Tests/Pods-AirportHUD_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-AirportHUD_Tests/Pods-AirportHUD_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SUPPORTS_MACCATALYST = NO;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		82E2764CB762FC18FC99020EFD2D1AF8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F06449E8B7C3A69EECB0468A304F81F6 /* AirportHUD.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/AirportHUD/AirportHUD-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AirportHUD/AirportHUD-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/AirportHUD/AirportHUD.modulemap";
-				PRODUCT_MODULE_NAME = AirportHUD;
-				PRODUCT_NAME = AirportHUD;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SUPPORTS_MACCATALYST = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		9E1F0E53A6DF97FE83520CD3D7ABB8C0 /* Release */ = {
+		234FE2C9174BC840A6EE42A3C742574A /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3D0004F5E2E3956B70657D6BE8EB24C8 /* Pods-AirportHUD_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -528,7 +434,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SUPPORTS_MACCATALYST = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -536,11 +441,47 @@
 			};
 			name = Release;
 		};
-		A15A74AD280306F8BB0450C432799BF7 /* Debug */ = {
+		2FACC35E21C905BD85110F39BAA6BF9D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1B0765CC7E244D4D3BDEA4D3933797F0 /* Pods-AirportHUD_Example.debug.xcconfig */;
+			baseConfigurationReference = D5F99E38EE0FCE5033B9F3EA41CF0E52 /* Pods-AirportHUD_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AirportHUD_Tests/Pods-AirportHUD_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AirportHUD_Tests/Pods-AirportHUD_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5B000EEB10273F8A3D9D3F61AC23EB3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80767370BBF89FD4AF6D14AF4FEFB17B /* Pods-AirportHUD_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -562,14 +503,46 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		642FEFF7CA0F5C40171435BFE5C10394 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 676911BFDD6105587BEFEAD8C260576A /* AirportHUD.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AirportHUD/AirportHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AirportHUD/AirportHUD-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AirportHUD/AirportHUD.modulemap";
+				PRODUCT_MODULE_NAME = AirportHUD;
+				PRODUCT_NAME = AirportHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		C14E932D4C3EFCC589F7DEABCEC18F22 /* Release */ = {
+		8C7FC025747B55D46DDEDEE5F4DFD2F2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -618,22 +591,58 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		D1180FA4C8C97B9D3DE01494DD85E6C7 /* Release */ = {
+		A18D1D6E60EBBEA42D3422BC110C2D35 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 80767370BBF89FD4AF6D14AF4FEFB17B /* Pods-AirportHUD_Example.release.xcconfig */;
+			baseConfigurationReference = BCFF41FA62C1682CDAA91183DC467C7A /* AirportHUD.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AirportHUD/AirportHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AirportHUD/AirportHUD-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AirportHUD/AirportHUD.modulemap";
+				PRODUCT_MODULE_NAME = AirportHUD;
+				PRODUCT_NAME = AirportHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CCF92C1F0968A4CBAD7A8BCF45D0B8E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B0765CC7E244D4D3BDEA4D3933797F0 /* Pods-AirportHUD_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -655,15 +664,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SUPPORTS_MACCATALYST = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		EF3BAAA889B17377BE8F3254633FA0A7 /* Debug */ = {
+		EEF25CDFE5981495667B2EF4925DC0C9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -715,7 +722,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -734,8 +741,8 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EF3BAAA889B17377BE8F3254633FA0A7 /* Debug */,
-				C14E932D4C3EFCC589F7DEABCEC18F22 /* Release */,
+				EEF25CDFE5981495667B2EF4925DC0C9 /* Debug */,
+				8C7FC025747B55D46DDEDEE5F4DFD2F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -743,8 +750,8 @@
 		82BFD3BDFCBDFD867B46FCB810B25D6C /* Build configuration list for PBXNativeTarget "AirportHUD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				165296764E9486256AEB4AE5E09CDA33 /* Debug */,
-				82E2764CB762FC18FC99020EFD2D1AF8 /* Release */,
+				642FEFF7CA0F5C40171435BFE5C10394 /* Debug */,
+				A18D1D6E60EBBEA42D3422BC110C2D35 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -752,8 +759,8 @@
 		B4736E1636AFC9A6DB47B99EB2F758A0 /* Build configuration list for PBXNativeTarget "Pods-AirportHUD_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2393B45315E867D955CEA289D881E1FC /* Debug */,
-				9E1F0E53A6DF97FE83520CD3D7ABB8C0 /* Release */,
+				2FACC35E21C905BD85110F39BAA6BF9D /* Debug */,
+				234FE2C9174BC840A6EE42A3C742574A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -761,8 +768,8 @@
 		D1FC187C5D5C94831655FAB847C6248F /* Build configuration list for PBXNativeTarget "Pods-AirportHUD_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A15A74AD280306F8BB0450C432799BF7 /* Debug */,
-				D1180FA4C8C97B9D3DE01494DD85E6C7 /* Release */,
+				CCF92C1F0968A4CBAD7A8BCF45D0B8E9 /* Debug */,
+				5B000EEB10273F8A3D9D3F61AC23EB3A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

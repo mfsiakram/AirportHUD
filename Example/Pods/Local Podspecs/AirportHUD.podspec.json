@@ -1,8 +1,8 @@
 {
   "name": "AirportHUD",
   "version": "0.1.0",
-  "summary": "A short description of AirportHUD.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "A library written in swift.",
+  "description": "This library is developed to show custom loader.",
   "homepage": "https://github.com/mfsiakram/AirportHUD",
   "license": {
     "type": "MIT",
@@ -16,7 +16,9 @@
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "9.0"
+    "ios": "13.0"
   },
-  "source_files": "AirportHUD/Classes/**/*"
+  "swift_versions": "5",
+  "source_files": "AirportHUD/Classes/**/*",
+  "swift_version": "5"
 }
