@@ -37,22 +37,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		02812B02344D4A62FE2117FD8B26B3B8 /* Pods_AirportHUD_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AirportHUD_Example.framework; path = "Pods-AirportHUD_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		02812B02344D4A62FE2117FD8B26B3B8 /* Pods_AirportHUD_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AirportHUD_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		049E33B4AB96632D1B6041285EC6C0B6 /* Pods-AirportHUD_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AirportHUD_Example-Info.plist"; sourceTree = "<group>"; };
 		109112B82856A17D05A5D6466F6590C3 /* Pods-AirportHUD_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AirportHUD_Tests-umbrella.h"; sourceTree = "<group>"; };
 		114034D4081577548208BA8FB2D4D202 /* Pods-AirportHUD_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AirportHUD_Example-dummy.m"; sourceTree = "<group>"; };
 		1891746C8DBD4F59634BB0EAFC450DA2 /* AirportHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AirportHUD-dummy.m"; sourceTree = "<group>"; };
 		1B0765CC7E244D4D3BDEA4D3933797F0 /* Pods-AirportHUD_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AirportHUD_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		1C030EA2D655573B891859F7B4DC1F2C /* AirportHUD.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = AirportHUD.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		1D398A3F91D6E3D539F0FCBCA78CF303 /* AirportHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AirportHUD.framework; path = AirportHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C030EA2D655573B891859F7B4DC1F2C /* AirportHUD.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = AirportHUD.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1D398A3F91D6E3D539F0FCBCA78CF303 /* AirportHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AirportHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		317513B37B0C74115873E5076DDB7867 /* Pods-AirportHUD_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AirportHUD_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		3D0004F5E2E3956B70657D6BE8EB24C8 /* Pods-AirportHUD_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AirportHUD_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		4036498EB50F67AE8BAB83D3C4A4E7DD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		4036498EB50F67AE8BAB83D3C4A4E7DD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		44BFA169AF502D345CF4FBEB1E1A01F2 /* Pods-AirportHUD_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AirportHUD_Tests-Info.plist"; sourceTree = "<group>"; };
 		63FB9DCD7E2B83F7A62BCCE6D6158FE7 /* AirportHUD-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AirportHUD-Info.plist"; sourceTree = "<group>"; };
 		676911BFDD6105587BEFEAD8C260576A /* AirportHUD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AirportHUD.debug.xcconfig; sourceTree = "<group>"; };
 		6A2F074D600EC7DA6C11BB62D6DDBBB4 /* Pods-AirportHUD_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AirportHUD_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		6B07400249B50ACD9DCC1F996E281FC0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		6B07400249B50ACD9DCC1F996E281FC0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		6C781AD9892304DA3C4D754B5CCEF1DC /* AirportDataLoader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AirportDataLoader.swift; path = AirportHUD/Classes/AirportDataLoader.swift; sourceTree = "<group>"; };
 		729D4F8301555F8C11A65FB8E2A37835 /* Pods-AirportHUD_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AirportHUD_Example-frameworks.sh"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -61,7 +61,7 @@
 		80767370BBF89FD4AF6D14AF4FEFB17B /* Pods-AirportHUD_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AirportHUD_Example.release.xcconfig"; sourceTree = "<group>"; };
 		8B09607F8C1F7F90D763242EEFAE450B /* Pods-AirportHUD_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AirportHUD_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		8C37A2D73D2A69DACF121D1ABB6F106B /* Pods-AirportHUD_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AirportHUD_Tests.modulemap"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BCFF41FA62C1682CDAA91183DC467C7A /* AirportHUD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AirportHUD.release.xcconfig; sourceTree = "<group>"; };
 		C0F4A4B118799CC67208336E17B9940F /* AirportHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AirportHUD-umbrella.h"; sourceTree = "<group>"; };
 		C4F0C1DF553EB3C321FEA2D0C5323340 /* AirportHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AirportHUD.modulemap; sourceTree = "<group>"; };
@@ -69,7 +69,7 @@
 		CB481E8BE17EFE71F9A7C75BF64C45C3 /* Pods-AirportHUD_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AirportHUD_Example-umbrella.h"; sourceTree = "<group>"; };
 		D5F99E38EE0FCE5033B9F3EA41CF0E52 /* Pods-AirportHUD_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AirportHUD_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		E0091524A70920DA835E5E4435470F95 /* AirportHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AirportHUD-prefix.pch"; sourceTree = "<group>"; };
-		E82B51CDC26767C135BCA22D68D4E088 /* Pods_AirportHUD_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AirportHUD_Tests.framework; path = "Pods-AirportHUD_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E82B51CDC26767C135BCA22D68D4E088 /* Pods_AirportHUD_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AirportHUD_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -434,6 +434,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -469,6 +470,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -503,6 +505,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -534,6 +537,7 @@
 				PRODUCT_NAME = AirportHUD;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -596,8 +600,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -627,6 +630,7 @@
 				PRODUCT_NAME = AirportHUD;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -664,6 +668,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
