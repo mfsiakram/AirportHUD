@@ -1,0 +1,16 @@
+PODS:
+  - AirportHUD (0.1.0)
+
+DEPENDENCIES:
+  - AirportHUD (from `../`)
+
+EXTERNAL SOURCES:
+  AirportHUD:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AirportHUD: 55d20be3d79a8f951d0cc965200de8bb5f5e461f
+
+PODFILE CHECKSUM: 82214456c9f74262eb1127dd43bd6cdc0ce31dd9
+
+COCOAPODS: 1.9.3

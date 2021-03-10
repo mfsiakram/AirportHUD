@@ -1,0 +1,6 @@
+framework module AirportHUD {
+  umbrella header "AirportHUD-umbrella.h"
+
+  export *
+  module * { export * }
+}
