@@ -93,7 +93,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.source_files  = 'AirportHUD/Classes/**/*.{h,m,swift}'
-  spec.exclude_files = "Classes/Exclude"
+  #spec.exclude_files = "Classes/Exclude"
 
   #spec.public_header_files = "AirportHUD/Classes/**/*.h"
 

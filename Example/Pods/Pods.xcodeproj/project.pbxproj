@@ -13,7 +13,7 @@
 		5BF8C65A8ECE4BE30B79F19E289CC075 /* Pods-AirportHUD_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E9B63F5A8628855FC4FC28C42A56E0F /* Pods-AirportHUD_Tests-dummy.m */; };
 		7159D2DA50FD5C7C6BEBF79FE91C5A53 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		8151382894B9436A8E5C5B25D5C466E2 /* AirportHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1891746C8DBD4F59634BB0EAFC450DA2 /* AirportHUD-dummy.m */; };
-		87753DE025F8DAAD004D2C14 /* ArrayExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87753DDF25F8DAAD004D2C14 /* ArrayExtension.swift */; };
+		87753DE725F8DB7F004D2C14 /* AirportDataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C781AD9892304DA3C4D754B5CCEF1DC /* AirportDataLoader.swift */; };
 		8FD65A513A66DA9D67BEC4E40EF7CF01 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		90FA5F3AE3BC019690DB15CB50E90C13 /* Pods-AirportHUD_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CB481E8BE17EFE71F9A7C75BF64C45C3 /* Pods-AirportHUD_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E4287F740506C393A8E5BFB99715C262 /* AirportDataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C781AD9892304DA3C4D754B5CCEF1DC /* AirportDataLoader.swift */; };
@@ -60,7 +60,6 @@
 		7BA36AFC509CE8DC12EC3D6A5AA3C795 /* Pods-AirportHUD_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AirportHUD_Example.modulemap"; sourceTree = "<group>"; };
 		7E9B63F5A8628855FC4FC28C42A56E0F /* Pods-AirportHUD_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AirportHUD_Tests-dummy.m"; sourceTree = "<group>"; };
 		80767370BBF89FD4AF6D14AF4FEFB17B /* Pods-AirportHUD_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AirportHUD_Example.release.xcconfig"; sourceTree = "<group>"; };
-		87753DDF25F8DAAD004D2C14 /* ArrayExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArrayExtension.swift; path = AirportHUD/Classes/ArrayExtension.swift; sourceTree = "<group>"; };
 		8B09607F8C1F7F90D763242EEFAE450B /* Pods-AirportHUD_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AirportHUD_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		8C37A2D73D2A69DACF121D1ABB6F106B /* Pods-AirportHUD_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AirportHUD_Tests.modulemap"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -140,7 +139,6 @@
 		69593E89E696ABDAEE509FB250BCF0CB /* AirportHUD */ = {
 			isa = PBXGroup;
 			children = (
-				87753DDF25F8DAAD004D2C14 /* ArrayExtension.swift */,
 				6C781AD9892304DA3C4D754B5CCEF1DC /* AirportDataLoader.swift */,
 				A93B09A5E2BABD198F5068D39D750A2B /* Pod */,
 				81D92AEF8AD161C64DCC536CD08F0D02 /* Support Files */,
@@ -370,7 +368,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				87753DE025F8DAAD004D2C14 /* ArrayExtension.swift in Sources */,
 				E4287F740506C393A8E5BFB99715C262 /* AirportDataLoader.swift in Sources */,
 				8151382894B9436A8E5C5B25D5C466E2 /* AirportHUD-dummy.m in Sources */,
 			);
@@ -388,6 +385,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87753DE725F8DB7F004D2C14 /* AirportDataLoader.swift in Sources */,
 				E57060FC1D914B6554EEB2112C51A892 /* Pods-AirportHUD_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
