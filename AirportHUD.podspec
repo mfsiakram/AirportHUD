@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "AirportHUD"
-  spec.version      = "0.1.0"
+  spec.version      = "0.1.1"
   spec.summary      = "A library written in swift."
 
   # This description is used to generate tags and improve search results.
