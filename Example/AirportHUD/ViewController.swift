@@ -15,7 +15,10 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         // Do any additional setup after loading the view, typically from a nib.
-        let loader = AirportDataLoader(text: "Loading")
+        let loader: AirportDataLoader = AirportDataLoader(text: "Loading Json")
+        self.view.addSubview(loader)
+        loader.show()
+        
     }
 
     override func didReceiveMemoryWarning() {

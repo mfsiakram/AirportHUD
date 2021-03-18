@@ -7,7 +7,7 @@
 
 import UIKit
 
-class AirportDataLoader: UIVisualEffectView {
+public class AirportDataLoader: UIVisualEffectView {
 
   var text: String? {
     didSet {
@@ -20,15 +20,15 @@ class AirportDataLoader: UIVisualEffectView {
   let blurEffect = UIBlurEffect(style: .light)
   let vibrancyView: UIVisualEffectView
 
-  init(text: String) {
+    public init(text: String) {
     self.text = text
     self.vibrancyView = UIVisualEffectView(effect: UIVibrancyEffect(blurEffect: blurEffect))
     super.init(effect: blurEffect)
     self.setup()
   }
 
-  required init?(coder aDecoder: NSCoder) {
-    self.text = ""
+    public required init?(coder aDecoder: NSCoder) {
+    //self.text = ""
     self.vibrancyView = UIVisualEffectView(effect: UIVibrancyEffect(blurEffect: blurEffect))
     super.init(coder: aDecoder)
     self.setup()
@@ -41,7 +41,7 @@ class AirportDataLoader: UIVisualEffectView {
     activityIndictor.startAnimating()
   }
 
-  override func didMoveToSuperview() {
+    public override func didMoveToSuperview() {
     super.didMoveToSuperview()
 
     if let superview = self.superview {
@@ -73,11 +73,11 @@ class AirportDataLoader: UIVisualEffectView {
     }
   }
 
-  func show() {
+  public func show() {
     self.isHidden = false
   }
 
-  func hide() {
+    public func hide() {
     self.isHidden = true
   }
 }
